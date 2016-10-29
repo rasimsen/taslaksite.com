@@ -1,0 +1,131 @@
+html {
+height:100%;
+} 
+body{
+	/*height:100%;
+	width:100%;*/
+	font-size:10pt;
+	font-family: Tahoma;
+	/*margin:30 15 30 15;*/
+}
+a{
+	text-decoration:none;
+}
+
+
+/****************************************************/
+.baslik {
+	font-weight: bold;
+	font-size: 14pt;
+	padding: 3px
+}
+
+.altbaslik {
+	font-weight: bold;
+	font-size: 11pt;
+	padding: 3px
+}
+
+.icerik {
+	font-weight: normal;
+}
+.lk_baslik{font-size:10pt; font-weight:bold;}
+
+#ust_menu{
+	height:28px; 
+	padding:0;
+	float:none;
+}
+#ust_menu_baslik{
+	background-color:#DADAE4;
+	/*width:90px;*/
+	height:15px;
+	text-align:center;
+	border-top:1px solid #EBDF7C;
+	border-left:1px solid #EBDF7C;
+	border-right:1px solid #EBDF7C;
+	padding:3px; 
+	float:left;
+}
+#ust_menu_bosluk{
+	width:5px;
+	height:15px;
+	float:left;
+}
+#ust_menu_alti{
+	width:100%;
+	background-color:#FFE500;
+	height:30px;
+	float:none;
+	clear:both;
+}
+#sayfa_alti{
+}
+#alt_menu{
+	background-color:#FFE500;
+	padding:5px;
+}
+/******************************* sol panel ******************/
+#sol_panel{
+	text-align:left;
+	width:250px;
+	padding:3px;
+}
+#sol_panel_kutu{
+	border:1px #EBDF7C solid; 
+	padding:0px;
+}
+#sol_panel_kutu_baslik{
+	background-color:#DADAE4;
+	border-bottom:1px #EBDF7C solid; 
+	padding:3px;
+	font-weight:bold;	
+}
+#sol_panel_kutu_icerik{
+	padding:3px;
+}
+ul{ 
+	list-style:inside;
+	list-style-type:lower-roman;
+	padding-left:5px;
+	margin-left:5px;
+}
+/*** sag panel ***/
+#sag_panel{
+	text-align:left;
+	width:200px; 
+	padding:3px;
+}
+#sag_panel_kutu{
+	border:1px #EBDF7C solid; 
+	padding:0px;
+}
+#sag_panel_kutu_baslik{
+	background-color:#DADAE4;
+	border-bottom:1px #EBDF7C solid; 
+	padding:3px;
+	font-weight:bold;
+}
+#sag_panel_kutu_icerik{
+	padding:3px;
+}
+
+/******************************* mesaj ******************/
+.mesajTitle{
+	background-image:url(../resimler/ust_orta_bg.gif); 
+	background-repeat:repeat-x; 
+	font-size:12pt; 
+	font-weight:bold; 
+	padding:5px;
+	vertical-align:bottom;
+}
+.mesajBody{
+	padding:5px; 
+	vertical-align:middle;
+	background-color:white;
+	font-size:12pt; 
+}
+.mesajBodyText{
+	vertical-align:middle;
+	font-size:12pt; 
+}

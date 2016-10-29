@@ -1,0 +1,177 @@
+.bGray {
+	border: 3px solid #575775;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #575775;
+	font-weight: bolder;
+	width: 140px;
+}
+
+.bGray2 {
+	border: 3px solid #575775;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #575775;
+	font-weight: bolder;
+}
+
+.bNot {
+	font-size: 10px;
+	color: #575775;
+}
+
+.label {
+	font-size: 12px;
+	color: #575775;
+	text-align: left;
+}
+
+.data {
+	font-size: 12px;
+	color: #575775;
+	/*width:100px;*/
+}
+
+.data2 {
+	background-color: #FCF9C5;
+	font-size: 12px;
+	color: #575775;
+	/*width:100px;*/
+}
+
+.maintable {
+	border: solid 1px #eeeeee;
+}
+
+.baslik14kalin {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+h2 { /*padding-left:20px;
+	padding-right:20px;*/
+	height: 40px;
+	width: 95%;
+	background-image: url(../resimler/baslik_alt.gif);
+	background-repeat: repeat-x;
+}
+
+.DivBar {
+	SCROLLBAR-FACE-COLOR: #eeeeee;
+	SCROLLBAR-HIGHLIGHT-COLOR: #666666;
+	SCROLLBAR-SHADOW-COLOR: #eeeeee;
+	SCROLLBAR-3DLIGHT-COLOR: #eeeeee;
+	SCROLLBAR-ARROW-COLOR: #a1a1a1;
+	SCROLLBAR-TRACK-COLOR: #f7f7f7;
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+	overflow: auto;
+	height: 400px;
+}
+
+.kyHaber {
+	width: 100%;
+	height: 200px;
+}
+
+.baslik {
+	color: #575775;
+	font-weight: bolder;
+	font-size: 14px;
+}
+
+.table_icerik {
+	background-color:#F2F2F0;
+	padding:3px;
+}
+
+.icerik {
+	background-color:#FFFFFF;
+	border:solid 1px #EFEEED;
+	padding:3px;
+}
+
+th{border-bottom:1px silver solid;}
+
+.veri_liste_ust{border-bottom:1px silver solid;}
+.veri_liste_alt{border-top:1px silver solid;}
+
+
+.haberbaslik {
+	color: #575775;
+	font-weight: bolder;
+	font-size: 12px;
+}
+
+.toolbar {
+	color: #575775;
+	font-weight: normal;
+	font-size: 10px;
+	text-decoration: underline;
+}
+
+/************ taslaksite.com admin css ********************/
+body{ 	background-color:#FFFFFF; 
+		background-image:url(../resimler/tap_bg.gif); 
+		vertical-align:bottom; 
+		height:100%;
+		font-size:11px;
+		font-family: Tahoma;
+		color: #6F6F6F;
+		margin:0 0;
+		text-align:left;
+}
+.dust_sol{background-image:url(../resimler/tap0_34.gif); background-repeat:no-repeat; width:12px; height:12px;}
+.dust_sag{background-image:url(../resimler/tap0_39.gif); background-repeat:no-repeat; width:13px; height:12px;}
+.dust_bg{background-image:url(../resimler/tap0_38.gif); background-repeat:repeat-x; height:12px;}
+.dorta_sol_bg{background-image:url(../resimler/tap0_52.gif); background-repeat:repeat-y; width:12px;}
+.dorta_bg{background-color:white; height:100%; vertical-align:top;}
+.dorta_sag_bg{background-image:url(../resimler/tap0_57.gif); background-repeat:repeat-y; width:13px;}
+.dalt_sag{background-image:url(../resimler/tap0_97.gif); background-repeat:no-repeat; width:13px; height:13px;}
+.dalt_sol{background-image:url(../resimler/tap0_92.gif); background-repeat:no-repeat; width:12px; height:13px;}
+.dalt_bg{background-image:url(../resimler/tap0_96.gif); background-repeat:repeat-x; height:13px;}
+.menu_baslik a{color:#FE0101; font-size:12px; text-decoration:none;}
+.menu_body{color:#0F3251; font-size:10px; font-weight:regular;}
+input,select,textarea {
+	font-size: 11px;
+	font-family: Tahoma;
+	color: #6F6F6F;
+	padding: 3px;
+	background-color:#FFFFEF;
+	border:1px solid #CFCFCF;
+}
+table {
+	font-family: Arial;
+	font-size: 11px;
+	color: #575775;
+	text-align:left;
+	/*color:red;*/
+}
+
+.mesajTitle{
+	background-image:url(../resimler/ust_orta_bg.gif); 
+	background-repeat:repeat-x; 
+	font-size:12; 
+	font-weight:bold; 
+	color:#333333; 
+	padding:5px;
+	vertical-align:bottom;
+}
+.mesajBody{
+	padding:5px; 
+	vertical-align:middle;
+	background-color:white;
+	font-size:12; 
+	color:#666666;
+}
+.mesajBodyText{
+	vertical-align:middle;
+	font-size:12; 
+	color:#666666;
+}
+/******************************* navigator ******************/
+#vli_nav {padding: 3px; height:30px; text-align:right; background-color:#92BCE4;}
+.vli_nav_tbl {border:1px solid #cee1f3;background-color:#92BCE4; border-top:none; text-align:center;}
+#vli_nav_td {padding: 3px; float:left;}

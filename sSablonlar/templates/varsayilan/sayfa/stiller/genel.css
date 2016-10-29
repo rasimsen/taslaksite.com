@@ -1,0 +1,118 @@
+html {
+height:100%;
+} 
+body{
+	background-color:#011714;
+	background-image:url(../resimler/bg.jpg);
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-attachment:fixed;
+	vertical-align:middle;
+	text-align:left;
+	height:100%;
+	width:100%;
+	font-size:11px;
+	font-family: Tahoma;
+	color: #FFFFFF;
+	/*border:solid 1px #009933;*/
+		margin:0 0 0 0;		/*text-align:left;*/
+}
+a{color:#FFFFFF; text-decoration:none;}
+table{text-align:left;}
+.menu_ust_aktif{font-size:12px; font-weight:bold; text-decoration:none; width:80px;}
+.menu_ust_aktif a{text-decoration:none;color:#00346C; }
+.menu_ust_pasif{	
+	font-size:12px;
+	font-weight:normal;	
+}
+.menu_ust_pasif a{text-decoration:none;color:#FCFCFC;}
+.menu_body{color:#0F3251; font-size:10px; font-weight:regular;}
+input,select,textarea {
+	font-size: 10px;
+	font-family: Tahoma;
+	color: #6F6F6F;
+	padding: 2px;
+	background-color:#FFFFEF;
+	border:1px solid #CFCFCF;
+}
+
+div {
+	font-size: 11px;
+	font-family: Tahoma;
+	color: #B2B2B2;
+	padding: 0;
+}
+
+.arama_sonuc_baslik{
+	background-color:silver;
+	width:100%;
+	padding:5px;
+	font-weight:bold;
+	color:black;
+}
+
+td {
+	font-size: 11px;
+	font-family: Tahoma;
+	color: #ffffff;
+	/*vertical-align: top;*/
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border: 0;
+}
+
+input,select,textarea {
+	font-size: 11px;
+	font-family: Tahoma;
+	color: #333333;
+	padding: 3px;
+	background-color: #BE837F;
+	border:1px solid #7A051D;
+}
+/****************************************************/
+.baslik {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14pt;
+	padding: 3px
+}
+
+.altbaslik {
+	color: #931114;
+	font-weight: bold;
+	font-size: 11pt;
+	padding: 3px
+}
+
+.icerik {
+	color: #ffffff;
+	font-weight: normal;
+}
+.lk_baslik{font-size:10; font-weight:bold;}
+/******************************* mesaj ******************/
+.mesajTitle{
+	background-image:url(../resimler/ust_orta_bg.gif); 
+	background-repeat:repeat-x; 
+	font-size:12; 
+	font-weight:bold; 
+	color:#333333; 
+	padding:5px;
+	vertical-align:bottom;
+}
+.mesajBody{
+	padding:5px; 
+	vertical-align:middle;
+	background-color:white;
+	font-size:12; 
+	color:#666666;
+}
+.mesajBodyText{
+	vertical-align:middle;
+	font-size:12; 
+	color:#666666;
+}

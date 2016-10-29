@@ -1,0 +1,1 @@
+{if strlen($sayfa_icerik[icerik].THUMBNAIL) gt 0}<img src="dosya/foto/{$sayfa_icerik[icerik].THUMBNAIL}" border=0 style="padding:5px;"/>{/if}

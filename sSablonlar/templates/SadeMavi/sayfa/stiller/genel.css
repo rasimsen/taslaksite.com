@@ -1,0 +1,223 @@
+html {
+height:100%;
+} 
+body{ 	background-color:#4F5559; 
+		background-image:url(../resimler/sis_ubg.gif); 
+		background-repeat:repeat-x;
+		vertical-align:bottom; 
+		text-align:center; 
+		height:100%;
+		font-size:11px;
+		font-family: Tahoma;
+		color: #6F6F6F;
+		margin:0 10 10 10;
+		text-align:left;
+}
+
+.logo{
+	font-size:16pt;
+	font-weight:bold;
+	color:#fff;
+}
+
+.arama_sonuc_baslik{
+	background-color:silver;
+	width:100%;
+	padding:5px;
+	font-weight:bold;
+	color:black;
+}
+
+a {
+	border: none;
+	text-decoration: none;
+	color: #00346C;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+table {
+	border: 0;
+	color:#343835;
+}
+
+.lk_baslik{font-size:12px; font-weight:bold;}
+
+img {
+	border: 0;
+}
+
+.full {
+	width: 100%;
+	height: 100%;
+}
+input,select,textarea {
+	font-size: 11px;
+	font-family: Tahoma;
+	color: #B2B2B2;
+	padding: 3px;
+	background-color: #FFFFEF;
+	border:1px solid #CFC39B;
+}
+
+/****************************************************/
+.baslik {
+	color: #00346C;
+	font-weight: bold;
+	font-size: 12pt;
+	padding: 3px
+}
+
+.altbaslik {
+	color: #343835;
+	font-weight: normal;
+	font-size: 12pt;
+	padding: 2px
+}
+
+.icerik {
+	color:#343835;
+	font-weight: normal;
+}
+
+.footertxt {
+	color: #FFC700;
+}
+
+.icerik {
+	font-weight: normal;
+}
+
+#ust_menu{
+	height:28px; 
+	padding:0;
+	float:none;
+}
+#ust_menu_baslik{
+	background-color:#DADAE4;
+	/*width:90px;*/
+	height:15px;
+	text-align:center;
+	border-top:1px solid #EBDF7C;
+	border-left:1px solid #EBDF7C;
+	border-right:1px solid #EBDF7C;
+	padding:3px; 
+	float:left;
+}
+#ust_menu_bosluk{
+	width:5px;
+	height:15px;
+	float:left;
+}
+#ust_menu_alti{
+	width:100%;
+	background-color:#FFE500;
+	height:30px;
+	float:none;
+	clear:both;
+}
+#sayfa_alti{
+}
+#alt_menu{
+	background-color:#FFE500;
+	padding:5px;
+}
+/******************************* sol panel ******************/
+#sol_panel{
+	text-align:left;
+	width:206px;
+	/*padding:3px;*/
+}
+#sol_panel_kutu{
+	border:1px #DDDADA solid; 
+	padding:1px;
+}
+#sol_panel_kutu_baslik{
+	padding:5px;
+	background-image:url(../resimler//sis_142.gif); 
+	background-repeat:repeat-x; 
+	height:33px; 
+	vertical-align:bottom;
+	font-weight:bold;
+}
+#sol_panel_kutu_icerik{
+	padding:3px;
+}
+ul{ 
+	list-style:inside;
+	list-style-type:lower-roman;
+	padding-left:5px;
+	margin-left:5px;
+}
+/*** sag panel ***/
+#sag_panel{
+	text-align:left;
+	width:150px; 
+/*	padding:3px;*/
+}
+#sag_panel_kutu{
+	border:1px #DDDADA solid; 
+	padding:1px;
+}
+#sag_panel_kutu_baslik{
+	padding:5px;
+	background-image:url(../resimler/sis_142.gif); 
+	background-repeat:repeat-x; 
+	height:33px; 
+	vertical-align:bottom;
+	font-weight:bold;
+}
+#sag_panel_kutu_icerik{
+	padding:3px;
+}
+
+/******************************* mesaj ******************/
+.mesajTitle{
+	background-image:url(../resimler/ust_orta_bg.gif); 
+	background-repeat:repeat-x; 
+	font-size:12; 
+	font-weight:bold; 
+	color:#333333; 
+	padding:5px;
+	vertical-align:bottom;
+}
+.mesajBody{
+	padding:5px; 
+	vertical-align:middle;
+	background-color:white;
+	font-size:12; 
+	color:#666666;
+}
+.mesajBodyText{
+	vertical-align:middle;
+	font-size:12; 
+	color:#666666;
+}
+
+/******************************* navigator ******************/
+#vli_nav {padding: 3px; height:30px; text-align:right; background-color:#92BCE4;}
+.vli_nav_tbl {border:1px solid #cee1f3;background-color:#92BCE4; border-top:none; text-align:center;}
+#vli_nav_td {padding: 3px; float:left;}
+
+.menu_ust_aktif{font-size:12px; font-weight:bold; text-decoration:none; width:80px;}
+.menu_ust_aktif a{text-decoration:none;color:#00346C; }
+.menu_ust_pasif{	
+	font-size:12px;
+	font-weight:normal;	
+	background-image:url(../resimler/sis_um_bg.gif); background-repeat:repeat-x; width:80px;
+}
+.menu_ust_pasif a{text-decoration:none;color:#FCFCFC;}
+.menu_body{color:#0F3251; font-size:10px; font-weight:regular;}
+
+/***************************** etiket **********************/
+.tbl_etiket{
+	background: #fff url(../resimler/sis_142.gif) repeat-x left top;	
+	height:24px;
+	/*color:#a7d12c;*/
+}
+.tbl_icerik{
+	border:1px #DDDADA solid;
+}
